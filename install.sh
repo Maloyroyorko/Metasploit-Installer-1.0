@@ -11,6 +11,7 @@ WHITE="\e[37m"
 
 clear
 apt update && apt upgrade -y
+apt install git -y
 apt install figlet -y
 clear
 # Function to print a colorful responsive banner
